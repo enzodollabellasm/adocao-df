@@ -40,6 +40,8 @@ A interface usa regiões semânticas, rótulos associados aos campos, foco visí
 
 As mudanças serão registradas no Git com commits que descrevem cada etapa. Consulte o histórico do repositório para acompanhar a evolução.
 
+Para publicar este repositório no GitHub, siga o guia em [`docs/primeiro-push-github.md`](docs/primeiro-push-github.md). O histórico Git inicial já está incluído no projeto local.
+
 ## Créditos
 
 As fotografias do protótipo são carregadas do Unsplash. A lista de imagens e os créditos correspondentes serão incluídos na documentação final. Os dados dos animais foram criados para demonstração. O ChatGPT foi usado como apoio para planejar e implementar a estrutura inicial. O estudante deve revisar o código, testar a interface e registrar no relatório as contribuições de IA e as alterações feitas por ele.
