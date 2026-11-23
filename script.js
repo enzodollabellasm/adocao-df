@@ -160,8 +160,8 @@ document.querySelector("#theme-toggle").addEventListener("click", (event) => {
   announce(isDark ? "Modo escuro ativado." : "Modo claro ativado.");
 });
 document.querySelector("#font-toggle").addEventListener("click", (event) => {
-  const isLarge = document.documentElement.style.getPropertyValue("--font-scale") === "1.1";
-  document.documentElement.style.setProperty("--font-scale", isLarge ? "1" : "1.1");
+  const isLarge = document.documentElement.style.getPropertyValue("--font-scale") === "1.2";
+  document.documentElement.style.setProperty("--font-scale", isLarge ? "1" : "1.2");
   event.currentTarget.setAttribute("aria-label", isLarge ? "Aumentar tamanho do texto" : "Restaurar tamanho do texto");
   announce(isLarge ? "Tamanho do texto restaurado." : "Tamanho do texto aumentado.");
 });

@@ -25,6 +25,12 @@ O projeto propõe uma vitrine demonstrativa de adoção de cães e gatos no Dist
 
 Preencha após testar. Registre navegador, tamanho de tela, tarefas realizadas e o que precisou ser corrigido.
 
+- Durante a conferência manual, a pesquisa combinada por espécie e região retornou o animal esperado.
+- O perfil abriu e a manifestação de interesse exibiu a confirmação demonstrativa.
+- Foi identificado que o controle A+ aumentava pouco o ícone do tema, pois os tamanhos de texto estavam fixados em pixels.
+- Correção aplicada: os tamanhos tipográficos passaram a acompanhar a escala global, e o controle aumenta o texto em 20% com opção de restaurar.
+- Pendente: conferir visualmente o ajuste de texto e verificar o comportamento em telas menores.
+
 ## Pesquisa, WCAG e contraste
 
 Adicionar fontes consultadas, critérios WCAG aplicáveis e medidas de contraste obtidas para a versão final.
