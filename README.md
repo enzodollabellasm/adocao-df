@@ -32,6 +32,17 @@ Os perfis e contatos desta versão são fictícios. O site é um protótipo acad
 
 Abra `index.html` em um navegador moderno. Para desenvolvimento local, também é possível usar a extensão Live Server no Visual Studio Code.
 
+## Etapas de construção
+
+1. Delimitar o problema e o público do projeto, além de escolher os requisitos do enunciado que entram na primeira versão.
+2. Organizar o conteúdo da página em HTML semântico, separando apresentação, catálogo, explicações, contato e rodapé.
+3. Definir a identidade visual em CSS, incluindo cores, tipografia, estados de foco, tema escuro e ajustes para telas menores.
+4. Manter os dados fictícios dos animais e implementar pesquisa, filtros, carrossel, perfis, janelas de diálogo e confirmações em JavaScript.
+5. Abrir o protótipo no navegador e percorrer as tarefas principais. Registrar problemas encontrados, correções e capturas de tela no diário do projeto.
+6. Revisar contraste, navegação por teclado, rótulos dos formulários e comportamento em celular antes da entrega.
+7. Registrar cada mudança concluída em um commit Git com uma mensagem que resuma a alteração. Conectar o repositório local ao GitHub seguindo o guia em `docs/primeiro-push-github.md`.
+8. Atualizar o relatório com as telas conferidas, as referências, as medidas de contraste e os links de acesso.
+
 ## Acessibilidade e usabilidade
 
 A interface usa regiões semânticas, rótulos associados aos campos, foco visível, navegação por teclado, controles com nomes acessíveis e um controle de contraste por tema. A conformidade WCAG e as razões de contraste serão verificadas e documentadas durante o projeto, com os resultados reais da versão final.

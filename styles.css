@@ -10,6 +10,8 @@
   --lime:#d3e576;
   --terra:#c87756;
   --sand:#eee9dc;
+  --on-accent:#fffefa;
+  --focus-ring:#ad5839;
   --shadow:0 18px 50px rgba(44,48,34,.09);
   --font-scale:1;
 }
@@ -41,6 +43,8 @@ body.dark {
   --lime:#5a6d3d;
   --terra:#d99170;
   --sand:#34382e;
+  --on-accent:#20231e;
+  --focus-ring:#e29a78;
   --shadow:0 18px 50px rgba(0,0,0,.24);
 }
 button,input,select,textarea {
@@ -74,7 +78,7 @@ button {
   transform:none;
 }
 :focus-visible {
-  outline:3px solid #d27856;
+  outline:3px solid var(--focus-ring);
   outline-offset:3px;
 }
 .site-header {
@@ -103,7 +107,7 @@ button {
   display:grid;
   place-items:center;
   background:var(--olive);
-  color:#fffefa;
+  color:var(--on-accent);
   font:800 calc(19px * var(--font-scale)) Manrope;
   transform:rotate(-8deg);
 }
@@ -175,7 +179,7 @@ button {
 }
 .button-primary {
   background:var(--olive);
-  color:white;
+  color:var(--on-accent);
 }
 .button-primary:hover {
   background:var(--olive-dark);
