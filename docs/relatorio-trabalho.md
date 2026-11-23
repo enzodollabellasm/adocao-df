@@ -130,7 +130,7 @@ O README do projeto explica a finalidade, o escopo, as tecnologias e a forma de 
 
 ### Uso de inteligência artificial
 
-O ChatGPT foi usado como apoio para interpretar o enunciado, planejar a estrutura inicial e produzir a primeira versão de HTML, CSS e JavaScript. Durante a conferência manual, o estudante identificou que o controle A+ não ampliava de modo perceptível o texto. A correção foi incorporada ao código e precisa ser confirmada visualmente pelo estudante. O relatório registra essa contribuição de forma transparente. O estudante deve revisar e compreender o código entregue.
+O ChatGPT foi usado como apoio para interpretar o enunciado, planejar a estrutura inicial e produzir a primeira versão de HTML, CSS e JavaScript. Durante a conferência manual, o estudante identificou que o controle A+ não ampliava de modo perceptível o texto. A correção foi incorporada ao código e conferida pelo estudante no navegador, que confirmou o aumento perceptível dos textos. O relatório registra essa contribuição de forma transparente. O estudante deve revisar e compreender o código entregue.
 
 ### Referências consultadas
 
