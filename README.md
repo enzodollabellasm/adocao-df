@@ -56,11 +56,3 @@ Para publicar este repositório no GitHub, siga o guia em [`docs/primeiro-push-g
 ## Créditos
 
 As fotografias do protótipo são carregadas do Unsplash. A lista de imagens e os créditos correspondentes serão incluídos na documentação final. Os dados dos animais foram criados para demonstração. O ChatGPT foi usado como apoio para planejar e implementar a estrutura inicial. O estudante deve revisar o código, testar a interface e registrar no relatório as contribuições de IA e as alterações feitas por ele.
-
-## Próximas etapas
-
-1. Revisar conteúdo, identidade visual e paleta.
-2. Medir contraste das combinações de texto e fundo.
-3. Testar navegação por teclado e em diferentes larguras.
-4. Completar a documentação de WCAG, heurísticas de Nielsen, UI/UX e psicologia das cores.
-5. Capturar telas da versão entregue e adicionar referências consultadas.
