@@ -520,7 +520,7 @@ button {
 .search-field input::placeholder {
   color:var(--muted);
 }
-.select option {
+select option {
   color: var(--ink);
   background-color: var(--surface);
 }
