@@ -176,6 +176,7 @@ document.querySelectorAll("#mobile-nav a").forEach((link) => {
   link.addEventListener("click", () => {
     document.querySelector("#mobile-nav").hidden = true;
     document.querySelector("#menu-toggle").setAttribute("aria-expanded", "false");
+    document.querySelector("#menu-toggle").setAttribute("aria-label", "Abrir menu");
   });
 });
 
