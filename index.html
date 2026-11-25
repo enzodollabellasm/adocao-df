@@ -1,10 +1,12 @@
 <!doctype html>
 <html lang="pt-BR">
 <head>
+  <!-- Define codificação, adaptação para telas menores, descrição e título da página. -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Conheça cães e gatos disponíveis para adoção no Distrito Federal.">
   <title>Encontre um Lar — adoção responsável no DF</title>
+    <!-- Prepara as fontes externas e carrega os estilos e o JavaScript do site. -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
@@ -12,7 +14,9 @@
   <script src="script.js" defer></script>
 </head>
 <body>
+  <!-- Atalho para pular a navegação e ir direto ao conteúdo principal. -->
   <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <!-- Cabeçalho com a marca, os links de navegação e os controles do site. -->
   <header class="site-header">
     <a class="brand" href="#inicio" aria-label="Encontre um Lar, início">
       <span class="brand-mark" aria-hidden="true">e</span>
@@ -30,11 +34,14 @@
       <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Abrir menu">☰</button>
     </div>
   </header>
+  <!-- Menu de navegação usado em telas menores. -->
   <nav class="mobile-nav" id="mobile-nav" aria-label="Navegação móvel" hidden>
     <a href="#animais">Adotar</a><a href="#como-funciona">Como funciona</a><a href="#contato">Contato</a>
   </nav>
 
+  <!-- Reúne o conteúdo principal da página. -->
   <main id="conteudo">
+    <!-- Apresentação do projeto, com chamada para encontrar animais e conhecer a adoção. -->
     <section class="hero section-wrap" id="inicio" aria-labelledby="hero-title">
       <div class="hero-copy">
         <p class="eyebrow"><span class="eyebrow-dot"></span> Adoção responsável no Distrito Federal</p>
@@ -54,6 +61,7 @@
       <div class="hero-bottom" aria-hidden="true"><span>BRASÍLIA · DF</span><span>ADOÇÃO COM RESPONSABILIDADE</span><span>01 / 04</span></div>
     </section>
 
+    <!-- Carrossel com animais em destaque, preenchido pelo JavaScript. -->
     <section class="featured section-wrap" aria-labelledby="featured-title">
       <div class="section-heading">
         <div><p class="eyebrow">Histórias esperando por você</p><h2 id="featured-title">Em destaque <span class="heading-accent">♡</span></h2></div>
@@ -62,23 +70,29 @@
       <div class="featured-track" id="featured-track" aria-live="polite"></div>
     </section>
 
+    <!-- Catálogo de animais e ferramentas para encontrar um perfil. -->
     <section class="catalog section-wrap" id="animais" aria-labelledby="catalog-title">
       <div class="section-heading catalog-heading">
         <div><p class="eyebrow">Seu próximo melhor amigo pode estar aqui</p><h2 id="catalog-title">Encontre seu <em>par perfeito</em></h2></div>
         <button class="button button-outline" data-open="publish-dialog" type="button">+ Divulgar um animal</button>
       </div>
+      <!-- Campo de busca e filtros por espécie e região. -->
       <form class="search-panel" id="search-form" role="search">
         <label class="search-field"><span class="field-icon" aria-hidden="true">⌕</span><span class="visually-hidden">Buscar por nome</span><input id="search-input" type="search" placeholder="Busque pelo nome do animal" autocomplete="off"></label>
         <label class="select-field"><span class="visually-hidden">Espécie</span><select id="species-filter"><option value="all">Todas as espécies</option><option value="Cão">Cães</option><option value="Gato">Gatos</option></select></label>
         <label class="select-field"><span class="visually-hidden">Região administrativa</span><select id="region-filter"><option value="all">Todas as regiões</option><option>Asa Norte</option><option>Asa Sul</option><option>Taguatinga</option><option>Águas Claras</option><option>Ceilândia</option></select></label>
         <button class="button button-dark search-submit" type="submit">Pesquisar <span aria-hidden="true">→</span></button>
       </form>
+      <!-- Mostra a quantidade de resultados e permite limpar os filtros. -->
       <div class="catalog-meta"><p id="results-count" aria-live="polite"></p><button class="clear-filters" id="clear-filters" type="button">Limpar filtros</button></div>
+      <!-- Área onde o JavaScript insere os cartões dos animais encontrados. -->
       <div class="pet-grid" id="pet-grid"></div>
       <p class="empty-state" id="empty-state" hidden>Nenhum animal encontrado com esses filtros. Tente outra busca.</p>
+      <!-- Ação para exibir todos os animais disponíveis no catálogo. -->
       <div class="catalog-more"><span>Perfeito para você ainda está por aí.</span><button class="text-link" id="show-all" type="button">Ver todos os animais <span aria-hidden="true">↓</span></button></div>
     </section>
 
+    <!-- Explica três etapas para uma adoção responsável. -->
     <section class="promise section-wrap" id="como-funciona" aria-labelledby="promise-title">
       <div class="promise-intro"><p class="eyebrow">Mais que um encontro</p><h2 id="promise-title">Adoção começa com <em>cuidado.</em></h2><p>Um lar novo é uma grande mudança. Por isso, cada passo importa para você e para o animal.</p><a href="#contato" class="text-link">Fale com a gente <span aria-hidden="true">→</span></a></div>
       <div class="promise-cards">
@@ -88,19 +102,23 @@
       </div>
     </section>
 
+    <!-- Convida protetores e responsáveis a divulgar animais para adoção. -->
     <section class="community section-wrap" aria-labelledby="community-title">
       <div class="community-image" role="img" aria-label="Pessoa fazendo carinho em um cachorro"></div>
       <div class="community-copy"><p class="eyebrow">Para protetores e responsáveis</p><h2 id="community-title">Toda história merece ser <em>vista.</em></h2><p>Tem um animal procurando uma família? Compartilhe as informações e ajude essa história a chegar à pessoa certa.</p><button class="button button-primary" data-open="publish-dialog" type="button">Divulgar um animal <span aria-hidden="true">↗</span></button></div>
     </section>
 
+    <!-- Seção de contato com formulário demonstrativo para dúvidas e sugestões. -->
     <section class="contact section-wrap" id="contato" aria-labelledby="contact-title">
       <div><p class="eyebrow">Estamos por perto</p><h2 id="contact-title">Vamos conversar?</h2><p>Tem dúvidas sobre o projeto ou quer sugerir uma melhoria? Escreva para a equipe.</p></div>
       <form class="contact-form" id="contact-form"><label>Seu nome<input name="name" required autocomplete="name" placeholder="Como podemos te chamar?"></label><label>Seu e-mail<input name="email" type="email" required autocomplete="email" placeholder="voce@email.com"></label><label>Mensagem<textarea name="message" rows="3" required placeholder="Escreva sua mensagem"></textarea></label><button class="button button-dark" type="submit">Enviar mensagem <span aria-hidden="true">→</span></button></form>
     </section>
   </main>
 
+  <!-- Rodapé com a marca, informações do projeto e links de navegação. -->
   <footer class="site-footer section-wrap"><a class="brand footer-brand" href="#inicio"><span class="brand-mark" aria-hidden="true">e</span><span>encontre<span class="brand-light">umlar</span></span></a><p>Um projeto acadêmico de adoção responsável no Distrito Federal.</p><div class="footer-links"><a href="#animais">Animais</a><a href="#como-funciona">Como funciona</a><a href="#contato">Contato</a></div><small>© 2026 Encontre um Lar · Protótipo acadêmico</small></footer>
 
+  <!-- Janelas de perfil, interesse, divulgação e login, além da área de avisos rápidos. -->
   <dialog class="modal" id="pet-dialog" aria-labelledby="pet-dialog-title"><div class="modal-content" id="pet-dialog-content"></div></dialog>
   <dialog class="modal modal-form" id="interest-dialog" aria-labelledby="interest-title"><button class="modal-close" type="button" data-close aria-label="Fechar">×</button><p class="eyebrow">Um primeiro passo</p><h2 id="interest-title">Tenho interesse em adotar</h2><p class="form-intro">Preencha seus dados. Nesta demonstração, as informações não são enviadas.</p><form id="interest-form"><input type="hidden" name="pet"><label>Seu nome<input name="name" required autocomplete="name"></label><label>Seu e-mail<input name="email" type="email" required autocomplete="email"></label><label>Conte um pouco sobre seu lar<textarea name="message" rows="4" required></textarea></label><button class="button button-primary" type="submit">Enviar manifestação</button></form></dialog>
   <dialog class="modal modal-form" id="publish-dialog" aria-labelledby="publish-title"><button class="modal-close" type="button" data-close aria-label="Fechar">×</button><p class="eyebrow">Compartilhe uma história</p><h2 id="publish-title">Divulgar um animal</h2><p class="form-intro">Cadastro demonstrativo para o projeto da disciplina. Os dados não são publicados.</p><form id="publish-form"><label>Nome do animal<input name="petName" required></label><label>Espécie<select name="species" required><option value="">Selecione</option><option>Cão</option><option>Gato</option></select></label><label>Região<input name="region" required placeholder="Ex.: Taguatinga"></label><label>Seu e-mail<input name="email" type="email" required></label><button class="button button-primary" type="submit">Conferir cadastro</button></form></dialog>
