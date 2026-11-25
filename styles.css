@@ -520,8 +520,9 @@ button {
 .search-field input::placeholder {
   color:var(--muted);
 }
-.select-field select {
-  cursor:pointer;
+.select option {
+  color: var(--ink);
+  background-color: var(--surface);
 }
 .search-submit {
   min-height:43px;
