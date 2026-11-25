@@ -12,7 +12,6 @@ O projeto propõe uma vitrine demonstrativa de adoção de cães e gatos no Dist
 - Incluídos cartões, pesquisa por nome, filtros por espécie e região, carrossel, perfil detalhado e formulários demonstrativos.
 - Incluídos controles de tema claro/escuro e aumento de texto.
 - Os perfis são fictícios e os formulários não transmitem dados.
-- Próximo passo: abrir no navegador, conferir os recursos, anotar problemas e fazer capturas de tela.
 
 ## Decisões de interface a justificar
 
@@ -30,9 +29,5 @@ Preencha após testar. Registre navegador, tamanho de tela, tarefas realizadas e
 - Foi identificado que o controle A+ aumentava pouco o ícone do tema, pois os tamanhos de texto estavam fixados em pixels.
 - Correção aplicada: os tamanhos tipográficos passaram a acompanhar a escala global, e o controle aumenta o texto em 20% com opção de restaurar.
 - A paleta também recebeu cores de texto para os botões e a marca no tema escuro, além de indicadores de foco com contraste maior.
-- O estudante confirmou no navegador que o controle A+ amplia o texto de forma perceptível.
+- Foi confirmado no navegador que o controle A+ amplia o texto de forma perceptível.
 - Pendente: verificar o comportamento em telas menores.
-
-## Pesquisa, WCAG e contraste
-
-Adicionar fontes consultadas, critérios WCAG aplicáveis e medidas de contraste obtidas para a versão final.
